@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: rgb(210, 126, 218);
+}
+
+.colour, .skills-p p {
+    color: rgb(210, 126, 218);
+}
+
+.name {
+    font-size: 26pt;
+    font-family: 'Stalinist One', cursive;
+}
+
+.top {
+    font-size: 24pt;
+    font-family: 'Grenze Gotisch', cursive;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.profile_pic {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+
+.heading {
+    font-family: 'Finger Paint', cursive;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+h2 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 25pt;
+}
+
+a {
+    font-family: 'Oregano', cursive;
+    font-style: italic;
+    color: rgb(210, 126, 218);
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14pt;
+    color: whitesmoke;
+}
+
+.skills-image {
+    width: 150px;
+    height: 150px;
+}
+
+.project-img {
+    width: 450px;
+    height: 300px;
+}
+
+.project-margin{
+    margin-top: 50px;
+}
+
+.contact-padding {
+    padding-top: 20px;
+}
+
+.bg {
+    background-color: white;
+}
+
+.skills-p p {
+    font-family: 'Oregano', cursive;
+}
+
+.dp {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}

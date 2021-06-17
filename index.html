@@ -8,6 +8,14 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -20,94 +28,97 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/">ALVIN</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand name text-white" href="/">ALVIN</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto">
-                        <a class="nav-item nav-link" href="#">About Me</a>
-                        <a class="nav-item nav-link" href="#">Skills</a>
-                        <a class="nav-item nav-link" href="#">Projects</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item nav-link top text-white" href="#aboutme">About Me</a>
+                        <a class="nav-item nav-link top text-white" href="#skills">Skills</a>
+                        <a class="nav-item nav-link top text-white" href="#projects">Projects</a>
+                        <a class="nav-item nav-link top text-white" href="#contact">Contact</a>
                     </div>
                 </div>
             </nav>
         </header>
         <main class="container-fluid">
-            <h1 class="text-center">Hello World,<br>I'm Alvin Awuor.</h1>
-            <section class="about-me">
-                <h2 class="underline" id="about">About Me</h2>
+            <h1 class="text-center heading colour">Hello World,<br>I'm Alvin Awuor.</h1>
+            <figure class="text-center">
+                <img src="./images/profile.JPG" alt="Profile Picture" class="dp">
+            </figure>
+            <section>
+                <h2 class="underline" id="aboutme">About Me</h2>
                 <article>
                     <p>I am a focused and dedicated person, I enjoy learning new things and I usually dwell on subjects
                         concerning technology and how it changes the world constantly throughout time.</p>
                 </article>
             </section>
             <section>
-                <h2>Skills</h2>
+                <h2 class="underline" id="skills">Skills</h2>
                 <article>
                     <p>I am well-versed in the following technologies:</p>
-                    <div class="text-center">
+                    <div class="text-center skills-p">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="./images/HTML5.png" alt="HTML5"><p>HTML5</p>
-                                <img src="./images/CSS.png" alt="CSS"><p>CSS</p>
+                                <img src="./images/HTML5.png" alt="HTML5" class="skills-image"><p>HTML5</p>
+                                <img src="./images/CSS.png" alt="CSS" class="skills-image"><p>CSS</p>
                             </div>
                             <div class="col-md-6">
-                                <img src="./images/bootstrap.png" alt="bootstrap"><p>BOOTSTRAP</p>
-                                <img src="./images/js.png" alt="JavaScript"><p>JavaScript</p>
+                                <img src="./images/bootstrap.png" alt="bootstrap" class="skills-image"><p>BOOTSTRAP</p>
+                                <img src="./images/js.png" alt="JavaScript" class="skills-image"><p>JavaScript</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="./images/Typescript.png" alt="TypeScript"><p>TypeScript</p>
-                                <img src="./images/angular.png" alt="ANGULAR"><p>ANGULAR</p>
+                                <img src="./images/Typescript.png" alt="TypeScript" class="skills-image"><p>TypeScript</p>
+                                <img src="./images/angular.png" alt="ANGULAR" class="skills-image"><p>ANGULAR</p>
                             </div>
                             <div class="col-md-6">
-                                <img src="./images/python.png" alt="python"><p>PYTHON</p>
-                                <img src="./images/flask.png" alt="FLASK"><p>FLASK</p>
+                                <img src="./images/python.png" alt="python" class="skills-image"><p>PYTHON</p>
+                                <img src="./images/flask.png" alt="FLASK" class="skills-image bg"><p>FLASK</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="./images/django.png" alt="django"><p>DJANGO</p>
+                                <img src="./images/django.png" alt="django" class="skills-image"><p>DJANGO</p>
                             </div>
                             <div class="col-md-6">
-                                <img src="./images/PostgreSQL.png" alt="PostgreSQL"><p>PostgreSQL</p>
+                                <img src="./images/PostgreSQL.png" alt="PostgreSQL" class="skills-image"><p>PostgreSQL</p>
                             </div>
                         </div>
                     </div>
                 </article>
             </section>
             <section>
-                <h2>Projects</h2>
+                <h2 class="underline" id="projects">Projects</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="https://alvin-21.github.io/pizza/"><img src="./images/Pizza.png" alt="YSL Pizza Project"></a>
+                        <a href="https://alvin-21.github.io/pizza/"><img src="./images/Pizza.png" alt="YSL Pizza Project" class="project-img"></a>
                     </div>
                     <div class="col-md-6">
-                        <a href="https://ysl-gallery.herokuapp.com"><img src="./images/Gallery.png" alt="Gallery Project"></a>
+                        <a href="https://ysl-gallery.herokuapp.com"><img src="./images/Gallery.png" alt="Gallery Project" class="project-img"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="https://patanyumba.herokuapp.com"><img src="./images/PataNyumba.png" alt="PataNyumba Project"></a>
+                        <a href="https://patanyumba.herokuapp.com"><img src="./images/PataNyumba.png" alt="PataNyumba Project" class="project-img project-margin"></a>
                     </div>
                     <div class="col-md-6">
-                        <a href="https://alvin-21.github.io/ghanian-name/"><img src="./images/Ghanian-name.png" alt="Ghanian-name Project"></a>
+                        <a href="https://alvin-21.github.io/ghanian-name/"><img src="./images/Ghanian-name.png" alt="Ghanian-name Project" class="project-img project-margin"></a>
                     </div>
                 </div>
             </section>
             <section>
-                <h2>Get in Touch</h2>
+                <h2 class="contact-padding underline" id="contact">Get in Touch</h2>
                 <p>You can reach me by sending an email to <a href="mailto:alvinawuor8@gmail.com">alvinawuor8@gmail.com</a></p>
                 <p>You may also check out my <a href="https://github.com/Alvin-21" target="blank">Github</a> account.</p>
             </section>
         </main>
         <footer class="container-fluid">
-            <p class="text-center">ALVIN | Copyright © 2021 All Rights Reserved.</p>
+            <p class="text-center colour">ALVIN | Copyright © 2021 All Rights Reserved.</p>
         </footer>
     </body>
 </html>
